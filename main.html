@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lazreus Tech - Innovate & Elevate</title>
+<!-- Fonts for bold typography and icons -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Orbitron:wght@600&display=swap" rel="stylesheet" />
+<!-- Animate.css for animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<!-- Your CSS -->
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+<!-- Sticky Navigation -->
+<header class="header">
+  <div class="container header-container">
+    <h1 class="logo">Lazreus Tech</h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#overview">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#target">Target</a></li>
+        <li><a href="#future">Future</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- Hero Section with Large Background & CTA -->
+<!-- Replace the existing CTA button with this -->
+<a href="login.html" class="login-btn" style="position:fixed; bottom:20px; right:20px; background: linear-gradient(135deg, #00f0ff, #ff00e4); padding:15px 25px; border-radius:50px; color:#111; font-weight:700; text-decoration:none; box-shadow:0 4px 20px rgba(0, 240, 255, 0.5); z-index:1000; display:flex; align-items:center; gap:8px; transition:all 0.3s ease;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+    <polyline points="10 17 15 12 10 7"></polyline>
+    <line x1="15" y1="12" x2="3" y2="12"></line>
+  </svg>
+  Login
+</a>
+
+<!-- About Section: Company Overview -->
+<section id="overview" class="section" style="background-color:#222; padding:80px 20px;">
+  <div class="container">
+    <h2 class="section-title animate__fadeInUp">Who We Are</h2>
+    <div class="cards-wrapper" style="display:flex; flex-wrap:wrap; gap:20px; justify-content: center;">
+      <div class="card animate__flipInX" style="flex:1 1 200px; max-width:250px; background:#333; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+        <h3>Name</h3>
+        <p>Lazreus Tech</p>
+      </div>
+      <div class="card animate__flipInX" style="flex:1 1 200px; max-width:250px; background:#333; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+        <h3>Founded</h3>
+        <p>2025</p>
+      </div>
+      <div class="card animate__flipInX" style="flex:1 1 200px; max-width:250px; background:#333; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+        <h3>Type</h3>
+        <p>Private</p>
+      </div>
+      <div class="card animate__flipInX" style="flex:1 1 200px; max-width:250px; background:#333; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+        <h3>Headquarters</h3>
+        <p>Kormangala Bangalore India</p>
+      </div>
+      <div class="card animate__flipInX" style="flex:1 1 200px; max-width:250px; background:#333; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+        <h3>Industry</h3>
+        <p>Technology Services</p>
+      </div>
+    </div>
+    <p class="animate__fadeIn" style="margin-top:30px; font-size:1.2rem; max-width:800px; margin-left:auto; margin-right:auto;">
+      Lazreus Tech is a modern digital solutions company dedicated to empowering small businesses and emerging enterprises. We specialize in delivering comprehensive technology services that help our clients streamline operations, enhance user experiences, and scale effectively in today’s fast-paced digital economy.
+    </p>
+  </div>
+</section>
+
+<!-- Mission & Vision Side-by-Side -->
+<section id="mission-vision" class="section" style="background-color:#f4f4f4; padding:80px 20px;">
+  <div class="container" style="display:flex; flex-wrap:wrap; gap:30px; justify-content: center;">
+    <div style="flex:1 1 300px; max-width:500px;">
+      <h2 class="animate__fadeInUp" style="font-size:2rem;">Our Mission</h2>
+      <p class="animate__fadeIn" style="font-size:1.2rem;">To empower growth and innovation for small and scaling businesses through reliable, high-quality technology solutions.</p>
+    </div>
+    <div style="flex:1 1 300px; max-width:500px;">
+      <h2 class="animate__fadeInUp" style="font-size:2rem;">Our Vision</h2>
+      <p class="animate__fadeIn" style="font-size:1.2rem;">To become a trusted technology partner for startups and small enterprises worldwide, enabling them to scale with confidence and agility.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Core Services as Interactive Cards -->
+<section id="services" class="section" style="background-color:#fff;">
+  <div class="container">
+    <h2 class="section-title animate__fadeInUp">Core Services</h2>
+    <div class="cards-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:20px;">
+      <div class="service-card animate__zoomIn" style="background:#f2f2f2; padding:20px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); transition:transform 0.3s;">
+        <h3>Website Development</h3>
+        <p>Custom, responsive websites tailored to your brand.</p>
+      </div>
+      <div class="service-card animate__zoomIn" style="background:#f2f2f2; padding:20px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); transition:transform 0.3s;">
+        <h3>App Development</h3>
+        <p>Cross-platform and native apps for performance & engagement.</p>
+      </div>
+      <div class="service-card animate__zoomIn" style="background:#f2f2f2; padding:20px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); transition:transform 0.3s;">
+        <h3>DevOps Services</h3>
+        <p>Automation, CI/CD pipelines, cloud infrastructure.</p>
+      </div>
+      <div class="service-card animate__zoomIn" style="background:#f2f2f2; padding:20px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); transition:transform 0.3s;">
+        <h3>UX Design</h3>
+        <p>Design strategies to improve usability and engagement.</p>
+      </div>
+      <!-- Add more services as needed -->
+    </div>
+  </div>
+</section>
+
+<!-- Target Audience with Icons -->
+<section id="target" class="section" style="background-color:#222; color:#fff;">
+  <div class="container" style="text-align:center;">
+    <h2 class="animate__fadeInUp">Target Audience</h2>
+    <ul style="list-style:none; margin-top:20px; font-size:1.2rem;">
+      <li class="animate__fadeIn">Startups & Early-stage Companies</li>
+      <li class="animate__fadeIn">Local & Small Businesses</li>
+      <li class="animate__fadeIn">E-commerce & Service Businesses</li>
+      <li class="animate__fadeIn">Agencies & Outsourcing</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Future Outlook -->
+<section id="future" class="section" style="padding:80px 20px;">
+  <div class="container" style="max-width:800px; margin:auto; text-align:center;">
+    <h2 class="animate__fadeInUp" style="font-size:2rem;">Future Outlook</h2>
+    <p class="animate__fadeIn" style="margin-top:20px; font-size:1.2rem;">
+      Lazreus Tech is expanding into AI tools, analytics dashboards, and next-gen solutions to stay ahead in the digital landscape.
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer" style="background:#111; padding:20px; text-align:center; color:#fff;">
+  <p>&copy; 2025 Lazreus Tech. All rights reserved.</p>
+</footer>
+
+<!-- Optional: add a floating CTA button for extra flair -->
+<a href="#hero" class="cta-btn" style="position:fixed; bottom:20px; right:20px; background:#f39c12; padding:15px 20px; border-radius:50px; color:#222; font-weight:700; text-decoration:none; box-shadow:0 4px 10px rgba(0,0,0,0.3); z-index:1000;">Get Started</a>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+<!-- Floating 3D Shapes -->
+<div class="floating-shapes">
+  <div class="shape"></div>
+  <div class="shape"></div>
+  <div class="shape"></div>
+  <div class="shape"></div>
+  <!-- Add this inside your <header> after the navigation -->
+<div class="theme-switcher">
+  <input type="checkbox" id="theme-toggle" />
+  <label for="theme-toggle" class="theme-label">
+    <div class="toggle-track">
+      <div class="toggle-thumb"></div>
+    </div>
+    <span class="light-icon">☀️</span>
+    <span class="dark-icon">🌑</span>
+  </label>
+</div>
+</div>
+</body>
+</html>
